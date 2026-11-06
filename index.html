@@ -98,8 +98,10 @@ background-color: rgb(255, 253, 253);
          if (curtiu === false){
             texto.textContent++;
             curtiu = true;
+         }else{
+            texto.textContent--;
+            curtiu = false;
          }
-         texto.textContent++;
       }
    })
 
